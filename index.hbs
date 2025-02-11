@@ -5,23 +5,49 @@
 {{else}}
    <main>
       <div class="wrapper">
+
+                     <div class="box-container">
+               <div class="box">
+                  <img src="linux.png" alt="نرم‌افزار آزاد">
+                  <h3>آزاد</h3>
+                  <p>شیرازلینوکس بر پایه‌ی فلسفه‌ی نرم‌افزارهای آزاد و متن‌باز فعالیت می‌کند. ما به آزادی کاربران در استفاده، مطالعه، تغییر و توزیع اعتقاد داریم و از آن حمایت می‌کنیم.
+</p>
+               </div>
+               <div class="box">
+                  <img src="linux(2).png" alt="بروزرسانی ماهانه">
+                  <h3>بروزرسانی ماهانه</h3>
+                  <p>با عضویت در شیرازلینوکس، هر ماه از جدیدترین اخبار، آموزش‌ها و رویدادهای مرتبط با دنیای نرم‌افزارهای آزاد مطلع شوید. ما هر ماه مطالب به‌روز و کاربردی را برای شما آماده می‌کنیم.</p>
+               </div>
+               <div class="box">
+                  <img src="window.png" alt="صمیمیت">
+                  <h3>صمیمیت</h3>
+                  <p>ما در شیرازلینوکس به روابط صمیمی و دوستانه بین اعضا اهمیت می‌دهیم. اینجا همه می‌توانند سوالات خود را بپرسند، ایده‌هایشان را به اشتراک بگذارند و در فضایی گرم و صمیمی یاد بگیرند.</p>
+               </div>
+               <div class="box">
+                  <img src="people.png" alt="شبکه‌سازی">
+                  <h3>شبکه‌سازی</h3>
+                  <p>شیرازلینوکس به شما امکان می‌دهد با جامعه‌ی بزرگی از متخصصان و علاقه‌مندان به نرم‌افزارهای آزاد ارتباط برقرار کنید. در رویدادها و کارگاه‌های ما شرکت کنید و شبکه‌ی حرفه‌ای خود را گسترش دهید.</p>
+               </div>
+            
+            </div>
          {{#if @config.custom.hero}}
             {{#checkIf @config.custom.heroSource '==' "static" }}
-               <div class="hero">
-                  <div class="hero__date">
-                     {{ translate 'common.updated' }}
-                     <time datetime="{{date @website.lastUpdate 'YYYY-MM-DDTHH:mm'}}">
-                        {{#checkIf @config.custom.formatDate '!=' 'custom'}}
-                           {{date @website.lastUpdate @config.custom.formatDate}}
-                        {{else}}
-                           {{date @website.lastUpdate @config.custom.formatDateCustom}}
-                        {{/checkIf}}
-                     </time>
+               <div class="">
+                  <div class="terminal-window">
+                     <div class="terminal-header">
+                        <div class="title">user@shirazlinux: ~</div>
+                     </div>
+                     <div class="terminal-body">
+                        <p class="ltr"><span class="prompt">user@shirazlinux:~$</span> ./about
+                        <p class="cursor">|</p>
+                        </p>
+                        {{{@config.custom.textHero}}}
+                        {{#if @config.custom.buttonHeroLinkName}}
+                        <a href="{{@config.custom.buttonHeroLinkUrl}}" class="btn hero__btn">{{@config.custom.buttonHeroLinkName}}</a>
+                        {{/if}}
+                        {{!-- <p class="output">به جامعه‌ی شیرازلینوکس خوش آمدید!</p> --}}
+                     </div>
                   </div>
-                  {{{@config.custom.textHero}}}
-                  {{#if @config.custom.buttonHeroLinkName}}
-                     <a href="{{@config.custom.buttonHeroLinkUrl}}" class="btn hero__btn">{{@config.custom.buttonHeroLinkName}}</a>
-                  {{/if}}
                </div>
             {{else}}
                {{#featuredPosts}}

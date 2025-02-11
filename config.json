@@ -1,8 +1,8 @@
 {
-    "name": "Taste",
-    "version": "3.5.4",
+    "name": "Taste-FDM",
+    "version": "3.6.2",
     "author": "freaks-dev",
-    "basedOn": "Publii Taste theme",
+    "basedOn": "Publii Taste theme RTL",
     "basedOnVersion": "3.0.0.0",
     "source": "https://marketplace.getpublii.com/themes/taste/",
     "officialTheme": false,
@@ -44,7 +44,7 @@
         "tagPages": true,
         "tagImages": true,
         "authorPages": true,
-        "authorImages": false,
+        "authorImages": true,
         "searchPage": true,
         "errorPage": true,
         "customSearch": true,
@@ -266,6 +266,333 @@
         },
         {
             "name": "buttonHeroLinkUrl",
+            "label": "",
+            "group": "Layout",
+            "placeholder": "https://",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "textHero1",
+            "label": "Text",
+            "group": "Layout",
+            "value": "<h1>Aenean vitae dui blandit, hendrerit sem feugiat</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat at leo vel dapibus. Quisque ligula mauris, condimentum.</p>",
+            "type": "wysiwyg",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkName1",
+            "label": "Button",
+            "group": "Layout",
+            "placeholder": "Read more",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkUrl1",
+            "label": "",
+            "group": "Layout",
+            "placeholder": "https://",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "textHero2",
+            "label": "Text",
+            "group": "Layout",
+            "value": "<h1>Aenean vitae dui blandit, hendrerit sem feugiat</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat at leo vel dapibus. Quisque ligula mauris, condimentum.</p>",
+            "type": "wysiwyg",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkName2",
+            "label": "Button",
+            "group": "Layout",
+            "placeholder": "Read more",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkUrl2",
+            "label": "",
+            "group": "Layout",
+            "placeholder": "https://",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "textHero3",
+            "label": "Text",
+            "group": "Layout",
+            "value": "<h1>Aenean vitae dui blandit, hendrerit sem feugiat</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat at leo vel dapibus. Quisque ligula mauris, condimentum.</p>",
+            "type": "wysiwyg",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkName3",
+            "label": "Button",
+            "group": "Layout",
+            "placeholder": "Read more",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkUrl3",
+            "label": "",
+            "group": "Layout",
+            "placeholder": "https://",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "textHero4",
+            "label": "Text",
+            "group": "Layout",
+            "value": "<h1>Aenean vitae dui blandit, hendrerit sem feugiat</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat at leo vel dapibus. Quisque ligula mauris, condimentum.</p>",
+            "type": "wysiwyg",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkName4",
+            "label": "Button",
+            "group": "Layout",
+            "placeholder": "Read more",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkUrl4",
+            "label": "",
+            "group": "Layout",
+            "placeholder": "https://",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+
+        {
+            "name": "textHero5",
+            "label": "Text",
+            "group": "Layout",
+            "value": "<h1>Aenean vitae dui blandit, hendrerit sem feugiat</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam placerat at leo vel dapibus. Quisque ligula mauris, condimentum.</p>",
+            "type": "wysiwyg",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+        {
+            "name": "buttonHeroLinkName5",
+            "label": "Button",
+            "group": "Layout",
+            "placeholder": "Read more",
+            "value": "",
+            "type": "text",
+            "dependencies": [
+                {
+                    "field": "heroSource",
+                    "value": "static"
+                },
+                {
+                    "field": "hero",
+                    "value": true
+                },
+                {
+                    "field": "frontSource",
+                    "value": "default"
+                }
+            ]
+        },
+
+        {
+            "name": "buttonHeroLinkUrl5",
             "label": "",
             "group": "Layout",
             "placeholder": "https://",
@@ -1771,7 +2098,7 @@
             "label": "Copyright text",
             "group": "Footer",
             "value": "Powered by Publii",
-            "type": "textarea"
+            "type": "wysiwyg"
         },
         {
             "name": "separator",
@@ -2764,6 +3091,22 @@
     ],
     "authorConfig": [
         {
+            "name": "displayFeaturedImage",
+            "label": "Display featured image",
+            "value": 1,
+            "type": "select",
+            "options": [
+                {
+                    "label": "Enabled",
+                    "value": 1
+                },
+                {
+                    "label": "Disabled",
+                    "value": 0
+                }
+            ]
+        },
+        {
             "name": "displayAvatar",
             "label": "Display avatar",
             "value": 1,
@@ -2846,6 +3189,22 @@
         }
     ],
     "tagConfig": [
+        {
+            "name": "displayFeaturedImage",
+            "label": "Display featured image",
+            "value": 1,
+            "type": "select",
+            "options": [
+                {
+                    "label": "Enabled",
+                    "value": 1
+                },
+                {
+                    "label": "Disabled",
+                    "value": 0
+                }
+            ]
+        },
         {
             "name": "displayPostCounter",
             "label": "Display post counter",

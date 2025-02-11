@@ -9,7 +9,32 @@
       {{/if}}
       {{#post}}
          <article class="content">
-            <header class="content__header">
+
+
+            {{#featuredImage}}
+               {{#if url}}
+                  <figure class="content__featured-image">
+                     <img
+                        src="{{url}}"
+                        {{#if @config.site.responsiveImages}}
+                           {{responsiveImageAttributes 'featuredImage' srcset sizes}}
+                        {{/if}}
+                        {{ lazyload "eager" }}
+                        height="{{height}}"
+                        width="{{width}}"
+                        alt="{{alt}}">
+
+                     {{#checkIfAny caption credits}}
+                        <figcaption>
+                           {{caption}}
+                           {{credits}}
+                        </figcaption>
+                     {{/checkIfAny}}
+                  </figure>
+               {{/if}}
+            {{/featuredImage}}
+            <div class="content__inner">
+                           <header class="content__header">
                {{#if @config.post.displayCategoryName}}
                   {{#if mainTag}}
                      <a href="{{ mainTag.url }}" class="content__maintag">
@@ -52,30 +77,6 @@
                   </div>
                {{/checkIfAny}}
             </header>
-
-            {{#featuredImage}}
-               {{#if url}}
-                  <figure class="content__featured-image">
-                     <img
-                        src="{{url}}"
-                        {{#if @config.site.responsiveImages}}
-                           {{responsiveImageAttributes 'featuredImage' srcset sizes}}
-                        {{/if}}
-                        {{ lazyload "eager" }}
-                        height="{{height}}"
-                        width="{{width}}"
-                        alt="{{alt}}">
-
-                     {{#checkIfAny caption credits}}
-                        <figcaption>
-                           {{caption}}
-                           {{credits}}
-                        </figcaption>
-                     {{/checkIfAny}}
-                  </figure>
-               {{/if}}
-            {{/featuredImage}}
-            <div class="content__inner">
                {{#if @config.custom.pdfDownloadButton}}
                <button style="margin: 0px 20px 20px 30px; align-items: center;" class="pdf-download-button"><img src="./assets/svg/filetype-pdf.svg" alt="Icon"><span style="margin-left: 8px;">Download PDF</span></button>
                {{/if}}
@@ -204,7 +205,7 @@
                <h2 class="h5">
                   {{ translate 'post.relatedPosts' }}
                </h2>
-               <div class="l-grid l-grid--4">
+               <div class="l-grid l-grid--3">
                   {{#each relatedPosts}}
                      <article class="c-card">
                         {{#if @config.custom.cardsImage}}

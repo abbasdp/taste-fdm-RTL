@@ -3,15 +3,55 @@
 <main class="page page--tag">
    <div class="wrapper">
       {{#tag}}
-         <div class="hero">
-            <h1>
-               {{name}}
-               {{#if tagViewConfig.displayPostCounter}}<sup>({{postsNumber}})</sup>{{/if}}
-            </h1>
-            {{#if tagViewConfig.displayDescription}} 
-               {{{description}}}
-            {{/if}}
-         </div>
+            <div class="">
+               <div class="terminal-window">
+                  <div class="terminal-header">
+                     <div class="title">user@shirazlinux: ~</div>
+                  </div>
+                  <div class="terminal-body">
+                     <p class="ltr"><span class="prompt">user@shirazlinux:~$</span> ./{{slug}}
+                     <p class="cursor">|</p>
+                     </p>
+                     {{!-- <p class="output">به جامعه‌ی شیرازلینوکس خوش آمدید!</p> --}}
+                     <div class="hero">
+                        <h1 style="color:rgb(255, 255, 255)">
+                           {{name}}                                                      
+                        </h1>
+                        <h4 style="color: #00ff00;">
+                           {{#if tagViewConfig.displayPostCounter}}
+                              تعداد {{name}} : {{postsNumber}}
+                           {{/if}}
+                        </h4>
+                        {{#if tagViewConfig.displayFeaturedImage}}
+                        {{#featuredImage}}
+                        {{#if url}}
+                        <figure class="hero__image">
+                           <div class="hero__image-wrapper">
+                              <img src="{{url}}" {{#if @config.site.responsiveImages}} {{responsiveImageAttributes 'tagImage' srcset
+                                 sizes}} {{/if}} {{ lazyload "eager" }} height="{{height}}" width="{{width}}" alt="{{alt}}">
+                           </div>
+
+                           {{#checkIfAny caption credits}}
+                           <figcaption>
+                              {{caption}}
+                              {{credits}}
+                           </figcaption>
+                           {{/checkIfAny}}
+                        </figure>
+                        {{/if}}
+                        {{/featuredImage}}
+                        {{/if}}
+                        {{#if tagViewConfig.displayDescription}}
+                        {{{description}}}
+                        {{/if}}
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+
+
          {{#if tagViewConfig.displayPostList}} 
             <div class="{{#checkIf @config.custom.layoutTags '==' "grid"}}l-grid {{@config.custom.layoutTagsGrid}} {{else}}l-masonry {{@config.custom.layoutTagsMasonry}}{{/checkIf}}">
                {{#each ../posts}}
