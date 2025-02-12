@@ -1,38 +1,64 @@
-# Taste FDM Publii Theme
+**تم Taste FDM Publii**
+**تم ویرایش شده Taste (غیررسمی)**
 
-# Modified Taste Theme (Unofficial)
+توجه: این تم هیچ ارتباطی با Publii ندارد و توسط آن تأیید نشده است. این یک ویرایش مستقل از تم اصلی Taste است.
 
-**Note: This theme is not affiliated with or endorsed by Publii. It is an independent modification of the original Taste theme.**
+این مخزن شامل نسخه‌ای ویرایش شده از تم Taste در Publii است که برای برآورده کردن نیازهای خاص سفارشی‌سازی شده است. تغییرات به منظور بهبود ویژگی‌های تم و ارائه انعطاف‌پذیری بیشتر برای سفارشی‌سازی وب‌سایت انجام شده‌اند.
 
-This repository contains a modified version of the Publii Taste theme, which has been customized to meet specific requirements. The modifications aim to enhance the theme's features and provide additional flexibility for website customization.
+**ویژگی‌ها**
 
-## Features
+- **فارسی‌سازی و راست‌چین:** این قالب به‌طور کامل فارسی‌سازی شده و راست‌چین است، که آن را برای کاربران فارسی‌زبان مناسب می‌کند.
 
-1. **Tab Color Option:** The modified theme introduces a new feature that allows customization of tab colors. Website owners can easily set the colors for browser tabs to align with their branding or design preferences.
+- **قالب شیرازلینوکس:** این قالب، قالب سایت شیرازلینوکس است و شامل بخش‌هایی از شعارهای شیرازلینوکس می‌باشد که قابل تغییر هستند و می‌توانند به راحتی روی Publii ویرایش شوند.
 
-2. **Automatic Year in Footer Copyright:** To simplify the process of updating the copyright year, the modified theme includes an automatic year feature. The copyright year will be dynamically updated, eliminating the need for manual year adjustments.
+- **گزینه رنگ تب:** تم ویرایش شده یک ویژگی جدید معرفی می‌کند که به کاربران اجازه می‌دهد رنگ‌های تب مرورگر را سفارشی‌سازی کنند. مالکان وب‌سایت می‌توانند به راحتی رنگ‌ها را تنظیم کنند تا با برند یا سلیقه طراحی آنها هماهنگ باشد.
 
-3. **Adjusted Default Navigation Bar Height:** The default navigation bar height has been fine-tuned to optimize space utilization, providing a more compact and streamlined appearance while ensuring smooth navigation.
+- **سال خودکار در کپی‌رایت فوتر:** برای ساده‌سازی فرآیند به‌روزرسانی سال کپی‌رایت، تم ویرایش شده شامل ویژگی سال خودکار است. سال کپی‌رایت به‌طور دینامیک به‌روزرسانی می‌شود و نیازی به تنظیمات دستی ندارد.
 
-4. **Included Inter Font:** The modified theme includes the Inter font, which can be used locally for the website without requiring any additional configuration. This addition enhances the visual appeal and typographic choices available to website creators.
+- **تنظیم ارتفاع نوار ناوبری پیش‌فرض:** ارتفاع نوار ناوبری پیش‌فرض بهینه‌سازی شده است تا از فضای موجود به بهترین نحو استفاده شود و ظاهری جمع و جور و منظم ایجاد کند و در عین حال ناوبری روانی را تضمین کند.
 
-5. **Updated Position of Website Updated Date:** The updated date information, previously located in the hero section, has been moved to the footer. This change improves the overall layout and consistency of the theme. Additionally, website owners have the option to disable the display of the website's last updated date if desired.
+- **شامل فونت وزیر:** ما از فونت وزیر استفاده کردیم، اما لوکیشن استفاده از فونت وزیر در این قالب نیست. هنگام نصب، کاربران می‌توانند از بخش تنظیمات، فونت وزیر را اضافه کنند.
 
-6. **Reduced Footer Height:** The theme now offers a reduced footer height to optimize spacing, ensuring a more aesthetically pleasing and streamlined layout.
+- **این قالب فقط برای Publii قابل استفاده است.**
 
-7. **Copy Copyright Text:** Introducing the "Copy Copyright Text" feature, which enables the inclusion of copyright text when content is copied from the website. This ensures proper attribution and adherence to copyright laws.
+- **آموزش نصب:** فایل زیپ این ریپو را دانلود کنید و در Publii در بخش نصب تم، نصب و اجرا کنید.
 
-8. **Added Footer Menu:** Enhancing the theme's functionality, a new footer menu area has been included, providing an additional space for displaying menus and enhancing website navigation.
+- **به‌روزرسانی موقعیت تاریخ به‌روزرسانی وب‌سایت:** اطلاعات تاریخ به‌روزرسانی، که قبلاً در بخش اصلی (hero) قرار داشت، به فوتر منتقل شده است. این تغییر به بهبود چیدمان کلی و انسجام تم کمک می‌کند. علاوه بر این، مالکان وب‌سایت می‌توانند در صورت تمایل نمایش تاریخ آخرین به‌روزرسانی وب‌سایت را غیرفعال کنند.
 
-9. **Styled Forms:** The modified theme also includes styling for forms. To achieve the desired form style, use the custom__form class for forms and form-row class for inputs. Furthermore, a checkbox option named form-agree has been added for forms. This allows website owners to include an agree checkbox for users to agree to terms or conditions before submitting the form.
+- **کاهش ارتفاع فوتر:** اکنون تم ارتفاع فوتر را کاهش داده است تا فضای بیشتری را بهینه کند و ظاهری زیباتر و منظم‌تر ایجاد کند.
 
-10. **Citation:** Added a citation option to add citation information in APA, MLA, Chicago and Bluebook format on post.
+- **متن کپی‌رایت:** ویژگی "متن کپی‌رایت" معرفی شده است که امکان درج متن کپی‌رایت هنگام کپی کردن محتوا از وب‌سایت را فراهم می‌کند. این اطمینان حاصل می‌کند که حق نشر به درستی رعایت شود.
 
-11. **PDF Download Option:** Added a PDF download button on Posts. THis lets the site visitor download your content in pdf. The PDF is highly customizable by the site owner, with multiple font options, like size, weight and style. With an option to include images that link back to the website.
+- **افزودن منوی فوتر:** برای افزایش قابلیت‌های تم، یک ناحیه جدید منوی فوتر اضافه شده است که فضایی اضافی برای نمایش منوها و بهبود ناوبری وب‌سایت فراهم می‌کند.
 
-## Version
+- **استایل فرم‌ها:** تم ویرایش شده همچنین شامل استایل برای فرم‌ها است. برای دستیابی به استایل دلخواه فرم، از کلاس custom__form برای فرم‌ها و کلاس form-row برای ورودی‌ها استفاده کنید. همچنین، گزینه چک باکس با نام form-agree برای فرم‌ها اضافه شده است که به مالکان وب‌سایت اجازه می‌دهد چک باکس توافق را برای کاربران اضافه کنند تا قبل از ارسال فرم، شرایط را بپذیرند.
 
-Current version is 3.5.1. Major changes and features addition since version 3.3.1.
+- **ارجاع:** گزینه ارجاع اضافه شده است تا اطلاعات ارجاع در فرمت‌های APA، MLA، شیکاگو و Bluebook در پست‌ها درج شود.
+
+- **گزینه دانلود PDF:** دکمه دانلود PDF در پست‌ها اضافه شده است. این امکان را به بازدیدکنندگان سایت می‌دهد تا محتوای شما را در قالب PDF دانلود کنند. PDF کاملاً قابل تنظیم توسط مالک سایت است و گزینه‌های متعددی مانند اندازه، وزن و سبک فونت دارد. همچنین گزینه‌ای برای درج تصاویری که به وب‌سایت لینک می‌شود وجود دارد.
+
+**نسخه**
+
+نسخه فعلی 3.5.1 است. تغییرات عمده و افزودن ویژگی‌ها از نسخه 3.3.1 به بعد.
+
+**مجوز**
+
+این تم ویرایش شده Publii Taste تحت مجوز عمومی عمومی GNU نسخه 3.0 (GPL-3.0) منتشر شده است. شما آزادید این تم را طبق شرایط مجوز GPL-3.0 استفاده، ویرایش و توزیع کنید.
+
+**اعتبارات**
+
+تم ویرایش شده Taste بر اساس تم اصلی Publii Taste توسعه یافته توسط Publii ساخته شده است.
+
+**بازخورد و مشارکت‌ها**
+
+بازخورد، گزارش اشکالات و مشارکت‌ها خوش آمدید. از آنجا که این یک ویرایش مستقل است، لطفاً هرگونه مشکل یا درخواست کشش مربوط به این نسخه ویرایش شده را از طریق مخزن GitHub ارسال کنید.
+
+**پشتیبانی**
+
+برای هرگونه سوال یا پشتیبانی در مورد این تم ویرایش شده Taste، لطفاً به مخزن GitHub مراجعه کنید تا اطلاعات بیشتری کسب کنید.
+
+**تصاویر صفحه نمایش**
+تصاویر مربوطه را شامل کنید یا دستورالعمل‌هایی برای مشاهده عملکرد تم ویرایش شده ارائه دهید.
 
 ## License
 
