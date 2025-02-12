@@ -60,21 +60,6 @@
 **تصاویر صفحه نمایش**
 تصاویر مربوطه را شامل کنید یا دستورالعمل‌هایی برای مشاهده عملکرد تم ویرایش شده ارائه دهید.
 
-## License
-
-This modified Publii Taste theme is released under the GNU General Public License version 3.0 (GPL-3.0). You are free to use, modify, and distribute this theme in accordance with the terms of the GPL-3.0 license.
-
-## Credits
-
-The modified Taste theme is based on the original [Publii Taste theme](https://marketplace.getpublii.com/themes/taste/) developed by Publii. 
-
-## Feedback and Contributions
-
-Feedback, bug reports, and contributions are welcome. As this is an independent modification, please submit any issues or pull requests specifically related to this modified version via the [GitHub repository](https://github.com/freaks-dev/taste-fdm).
-
-## Support
-
-For any questions or support regarding this modified Taste theme, please refer to the [GitHub repository](https://github.com/freaks-dev/taste-fdm) for additional information.
 
 ## Screenshots
 
